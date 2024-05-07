@@ -43,7 +43,7 @@ are required for all the components.
 
 1. Bring the stack up:
 
-        sudo docker compose -f docker-compose-test2.yml --env-file conf/variables.env up --pull always
+        sudo docker compose -f docker-compose-test2.yml --env-file conf/variables.env up -d --pull always
 
 2. Bring the stack down:
 
