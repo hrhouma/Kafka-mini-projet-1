@@ -158,3 +158,15 @@ Here we can see the data present in the Kafka Topic. Here states1 and states2 ar
 
 
 
+# Annexe 
+
+Executez le script python
+
+ ```bash
+# apt install python3-pip
+# pip --version
+# apt install python3.10-venv
+# python3 -m venv kafka_env
+# source kafka_env/bin/activate
+# pip install kafka-python
+ ```
